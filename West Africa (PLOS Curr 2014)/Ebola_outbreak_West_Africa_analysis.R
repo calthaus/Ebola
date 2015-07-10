@@ -1,29 +1,30 @@
-###############################################################################
-#                                                                             #
-# ESTIMATING THE REPRODUCTION NUMBER OF EBOLA VIRUS (EBOV)                    #
-# DURING THE 2014 OUTBREAK IN WEST AFRICA                                     #
-#                                                                             #
-# REFERENCE: ALTHAUS CL. PLOS CURR. 2014 SEP 2.								  #
-# DOI: 10.1371/currents.outbreaks.91afb5e0f279e7f29e7056095255b288			  #
-#                                                                             #
-# Copyright (C) 2014 Christian L. Althaus                                     #
-# (christian.althaus@alumni.ethz.ch)                                          #
-#                                                                             #
-# This demo is free software; you can redistribute it and/or                  #
-# modify it under the terms of the GNU General Public License                 #
-# as published by the Free Software Foundation; either version 2              #
-# of the License, or (at your option) any later version.                      #
-#                                                                             #
-# This program is distributed in the hope that it will be useful,             #
-# but WITHOUT ANY WARRANTY; without even the implied warranty of              #
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
-# GNU General Public License for more details.                                #
-#                                                                             #
-# You should have received a copy of the GNU General Public License           #
-# along with this program; if not, write to the Free Software                 #
-# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA. #
-#                                                                             #
-###############################################################################
+###########################################################################
+#                                                                         #
+#   ESTIMATING THE REPRODUCTION NUMBER OF EBOLA VIRUS (EBOV)              #
+#   DURING THE 2014 OUTBREAK IN WEST AFRICA                               #
+#                                                                         #
+#   REFERENCE: ALTHAUS CL. PLOS CURR. 2014;6.                             #
+#   DOI: 10.1371/currents.outbreaks.91afb5e0f279e7f29e7056095255b288      #
+#                                                                         #
+#   Copyright (C) 2014 by Christian L. Althaus                            #
+#   (christian.althaus@alumni.ethz.ch)                                    #
+#                                                                         #
+#   This program is free software; you can redistribute it and/or modify  #
+#   it under the terms of the GNU General Public License as published by  #
+#   the Free Software Foundation; either version 2 of the License, or     #
+#   (at your option) any later version.                                   #
+#                                                                         #
+#   This program is distributed in the hope that it will be useful,       #
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of        #
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         #
+#   GNU General Public License for more details.                          #
+#                                                                         #
+#   You should have received a copy of the GNU General Public License     #
+#   along with this program; if not, write to the                         #
+#   Free Software Foundation, Inc.,                                       #
+#   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             #
+#                                                                         #
+###########################################################################
 
 # Necessary libraries
 library(deSolve)
@@ -31,7 +32,7 @@ library(chron)
 library(bbmle)
 
 # Read the data file
-ebola <- read.csv("data.csv")
+ebola <- read.csv("Ebola_outbreak_West_Africa_data.csv")
 ebola$Date <- chron(as.character(ebola$Date),format=c(dates = "day mon year"))
 
 # Definition of the SEIR model
