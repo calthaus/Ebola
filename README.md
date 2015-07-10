@@ -1,4 +1,4 @@
-# ebola
+# Ebola
 Analyses of Ebola virus disease outbreaks
 
 This repository contains the data and `R` code files used in the following publications:
