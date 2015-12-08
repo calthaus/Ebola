@@ -3,8 +3,8 @@
 #   RAPID DROP IN THE REPRODUCTION NUMBER DURING THE EBOLA OUTBREAK       #
 #   IN THE DEMOCRATIC REPUBLIC OF CONGO                                   #
 #                                                                         #
-#   REFERENCE: ALTHAUS CL. PEERJ PREPRINTS. 2015;3:E1279.                 #
-#   DOI: 10.7287/peerj.preprints.1041v1                                   #
+#   REFERENCE: ALTHAUS CL. PEERJ. 2015;3:e1418.	                		  #
+#   DOI: 10.7717/peerj.1418       				                          #
 #                                                                         #
 #   Copyright (C) 2015 by Christian L. Althaus                            #
 #   (christian.althaus@alumni.ethz.ch)                                    #
