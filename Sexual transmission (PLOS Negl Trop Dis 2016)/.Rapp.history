@@ -1,0 +1,1 @@
+outdummy<-outsti[1:nrow(outdummy),]
