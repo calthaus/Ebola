@@ -7,4 +7,4 @@ This repository contains data and `R` code files from the following analyses of 
 3. Althaus CL. (2015) [Rapid drop in the reproduction number during the Ebola outbreak in the Democratic Republic of Congo](https://dx.doi.org/10.7287/peerj.preprints.1041). PeerJ, 3:e1418.
 4. Althaus CL. (2015) [Ebola superspreading](http://dx.doi.org/10.1016/S1473-3099(15)70135-0). Lancet Infect Dis, 15:507-8.
 5. Abbate JL, Murall CL, Richner H, Althaus CL. (2016) [Potential impact of sexual transmission on Ebola virus epidemiology: Sierra Leone as a case study](http://dx.doi.org/10.1371/journal.pntd.0004676). PLOS Negl Trop Dis, 10:e0004676.
-6. Althaus CL. (2018) [Real-time analysis of the 2018 Ebola outbreak in the Democratic Republic of Congo](https://github.com/calthaus/Ebola/tree/master/DRC(GitHub%202018)). GitHub.
+6. Althaus CL. (2018) [Real-time analysis of the 2018 Ebola outbreak in the Democratic Republic of Congo](https://github.com/calthaus/Ebola/tree/master/DRC%20(GitHub%202018)). GitHub.
