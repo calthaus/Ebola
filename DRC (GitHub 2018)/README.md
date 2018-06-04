@@ -3,8 +3,7 @@ Real-time analysis of the 2018 Ebola outbreak in the Democratic Republic of Cong
 
 4 June 2018
 
-Christian L. Althaus (<christian.althaus@alumni.ethz.ch>)
-Institute of Social and Preventive Medicine, University of Bern, Bern, Switzerland
+Christian L. Althaus (<christian.althaus@alumni.ethz.ch>), Institute of Social and Preventive Medicine, University of Bern, Bern, Switzerland
 
 Introduction
 ------------

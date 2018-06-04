@@ -5,8 +5,7 @@ output: github_document
 
 4 June 2018
 
-Christian L. Althaus (christian.althaus@alumni.ethz.ch)  
-Institute of Social and Preventive Medicine, University of Bern, Bern, Switzerland
+Christian L. Althaus (christian.althaus@alumni.ethz.ch), Institute of Social and Preventive Medicine, University of Bern, Bern, Switzerland
 
 ## Introduction
 
