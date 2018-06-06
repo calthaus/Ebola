@@ -1,7 +1,7 @@
 Real-time analysis of the 2018 Ebola outbreak in the Democratic Republic of Congo
 ================
 
-5 June 2018
+6 June 2018
 
 Christian L. Althaus (<christian.althaus@alumni.ethz.ch>), [Immuno-Epidemiology](http://www.immuno-epidemiology.ch/), Institute of Social and Preventive Medicine, University of Bern, Bern, Switzerland
 
@@ -16,7 +16,7 @@ Based on the same methodology that we developed for analyzing the 2014 EVD outbr
 
 ![](README_files/figure-markdown_github/plot_data-1.png)
 
-**Figure 1. Confirmed and probable EVD cases in the Democratic Republic of Congo (DRC)** The [WHO situation report](http://apps.who.int/iris/bitstream/handle/10665/272728/SITREP-EVD-DRC-20180601-eng.pdf?ua=1) from 1 June 2018 reported 50 confirmed and probable EVD cases until 29 May 2018.
+**Figure 1. Confirmed and probable EVD cases in the Democratic Republic of Congo (DRC)** The [WHO situation report](http://apps.who.int/iris/bitstream/handle/10665/272761/SITREP-EVD-DRC-20180605-eng.pdf?ua=1) from 5 June 2018 reported 50 confirmed and probable EVD cases until 3 June 2018.
 
 Outbreak analysis and projection
 --------------------------------
