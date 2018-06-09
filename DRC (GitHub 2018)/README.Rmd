@@ -3,7 +3,7 @@ title: "Real-time analysis of the 2018 Ebola outbreak in the Democratic Republic
 output: github_document
 ---
 
-6 June 2018
+9 June 2018
 
 Christian L. Althaus (christian.althaus@alumni.ethz.ch), [Immuno-Epidemiology](http://www.immuno-epidemiology.ch/), Institute of Social and Preventive Medicine, University of Bern, Bern, Switzerland
 
@@ -91,7 +91,7 @@ axis(1,seq(from=0.7,by=7*1.2,length.out=ceiling(length(ebola$Cases)/7)+1),weeks)
 axis(2)
 ```
 
-**Figure 1. Confirmed and probable EVD cases in the Democratic Republic of Congo (DRC)** The [WHO situation report](http://apps.who.int/iris/bitstream/handle/10665/272761/SITREP-EVD-DRC-20180605-eng.pdf?ua=1) from 5 June 2018 reported 50 confirmed and probable EVD cases until 3 June 2018.
+**Figure 1. Confirmed and probable EVD cases in the Democratic Republic of Congo (DRC)** The [WHO situation report](http://apps.who.int/iris/bitstream/handle/10665/272785/SITREP_EVD_DRC_20180608-eng.pdf?utm_source=Newsweaver&utm_medium=email&utm_term=click+here+to+download+the+complete+situation+report&utm_content=Tag%3AAFRO%2FWHE%2FHIM+Outbreaks+Weekly&utm_campaign=WHO+AFRO+-+Situation+Report+-+Ebola+Virus+Disease+Outbreak+in+DRC+-+Sitrep+09+%282018%29) from 8 June 2018 reported 52 confirmed and probable EVD cases until 6 June 2018.
 
 ## Outbreak analysis and projection
 
@@ -118,7 +118,7 @@ sim_coef <- data.frame(rmvnorm(n_sim, mean = m, sigma = sigma))
 
 # Timepoints
 pars <- trans(coef(fit))
-end <- chron("28 Jun 2018", format=c(dates = "day mon year"))
+end <- chron("12 Jul 2018", format=c(dates = "day mon year"))
 weeks <- seq.dates(from = chron("05 Apr 2018", format = c(dates = "day mon year")), to = end, by = 7)
 timepoints <- seq(0,end-begin,1)
 
@@ -140,8 +140,8 @@ for(i in 1:n_sim) {
 }
 ```
 
-```{r plot_dynamics, echo=FALSE, fig.height=5, fig.width=10}
-par(mfrow=c(1,2))
+```{r plot_dynamics, echo=FALSE, fig.height=10, fig.width=10}
+par(mfrow=c(2,1))
 # Plot the daily incidence of new cases
 mod_sim <- mod_sim_Inc
 obs_sim <- obs_sim_Inc
@@ -164,7 +164,7 @@ x_grid <- timepoints
 mod_q <- apply(mod_sim, MAR = 1, FUN = quantile, probs = c(0.025, 0.975))
 obs_q <- apply(obs_sim, MAR = 1, FUN = quantile, probs = c(0.025, 0.975))
 simulation <- as.data.frame(ode(init,x_grid,SEIR,parms=trans(coef(fit))))
-plot(x_grid[-(1:last_dp)], 1+mod_q[2,], xlim=range(x_grid), ylim = c(0,60), ty="l", lty=2, lwd = 1, col = "red", xlab=NA, ylab="Cumulative number of cases",frame=FALSE,axes=FALSE)
+plot(x_grid[-(1:last_dp)], 1+mod_q[2,], xlim=range(x_grid), ylim = c(0,70), ty="l", lty=2, lwd = 1, col = "red", xlab=NA, ylab="Cumulative number of cases",frame=FALSE,axes=FALSE)
 axis(1, weeks - begin, weeks)
 axis(2)
 polygon(x = c(x_grid[-(1:last_dp)], rev(x_grid[-(1:last_dp)])), y = c(1+obs_q[1,], rev(1+obs_q[2,])), col = rgb(1, 0, 0, alpha=0.2), border = NA)
@@ -173,7 +173,7 @@ lines(x_grid[-(1:last_dp)], 1+sum(data$cases)+simulation$C[-(1:last_dp)]-simulat
 points(data$times,1+cumsum(data$cases),col="red")
 ```
 
-**Figure 2. Dynamics of EVD outbreak in the Democratic Republic of Congo (DRC).** Model fits of daily incidence (left panel) and projections for cumulative numbers (right panel) of cases are shown together with reported data (circles). The best-fit model (solid lines) is given together with the 95% confidence intervals (dashed lines). The shaded areas correspond to the 95% prediction intervals.
+**Figure 2. Dynamics of EVD outbreak in the Democratic Republic of Congo (DRC).** Model fits of daily incidence (upper panel) and projections for cumulative numbers (lower panel) of cases are shown together with reported data (circles). The best-fit model (solid lines) is given together with the 95% confidence intervals (dashed lines). The shaded areas correspond to the 95% prediction intervals.
 
 ```{r reproduction, echo=FALSE, cache=TRUE}
 # Calculate the effective reproduction number vs. time (including approximate pointwise CI)

@@ -1,7 +1,7 @@
 Real-time analysis of the 2018 Ebola outbreak in the Democratic Republic of Congo
 ================
 
-6 June 2018
+9 June 2018
 
 Christian L. Althaus (<christian.althaus@alumni.ethz.ch>), [Immuno-Epidemiology](http://www.immuno-epidemiology.ch/), Institute of Social and Preventive Medicine, University of Bern, Bern, Switzerland
 
@@ -16,14 +16,14 @@ Based on the same methodology that we developed for analyzing the 2014 EVD outbr
 
 ![](README_files/figure-markdown_github/plot_data-1.png)
 
-**Figure 1. Confirmed and probable EVD cases in the Democratic Republic of Congo (DRC)** The [WHO situation report](http://apps.who.int/iris/bitstream/handle/10665/272761/SITREP-EVD-DRC-20180605-eng.pdf?ua=1) from 5 June 2018 reported 50 confirmed and probable EVD cases until 3 June 2018.
+**Figure 1. Confirmed and probable EVD cases in the Democratic Republic of Congo (DRC)** The [WHO situation report](http://apps.who.int/iris/bitstream/handle/10665/272785/SITREP_EVD_DRC_20180608-eng.pdf?utm_source=Newsweaver&utm_medium=email&utm_term=click+here+to+download+the+complete+situation+report&utm_content=Tag%3AAFRO%2FWHE%2FHIM+Outbreaks+Weekly&utm_campaign=WHO+AFRO+-+Situation+Report+-+Ebola+Virus+Disease+Outbreak+in+DRC+-+Sitrep+09+%282018%29) from 8 June 2018 reported 52 confirmed and probable EVD cases until 6 June 2018.
 
 Outbreak analysis and projection
 --------------------------------
 
 ![](README_files/figure-markdown_github/plot_dynamics-1.png)
 
-**Figure 2. Dynamics of EVD outbreak in the Democratic Republic of Congo (DRC).** Model fits of daily incidence (left panel) and projections for cumulative numbers (right panel) of cases are shown together with reported data (circles). The best-fit model (solid lines) is given together with the 95% confidence intervals (dashed lines). The shaded areas correspond to the 95% prediction intervals.
+**Figure 2. Dynamics of EVD outbreak in the Democratic Republic of Congo (DRC).** Model fits of daily incidence (upper panel) and projections for cumulative numbers (lower panel) of cases are shown together with reported data (circles). The best-fit model (solid lines) is given together with the 95% confidence intervals (dashed lines). The shaded areas correspond to the 95% prediction intervals.
 
 ![](README_files/figure-markdown_github/plot_reproduction-1.png)
 
