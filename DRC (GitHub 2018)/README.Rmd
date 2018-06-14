@@ -3,7 +3,7 @@ title: "Real-time analysis of the 2018 Ebola outbreak in the Democratic Republic
 output: github_document
 ---
 
-9 June 2018
+14 June 2018
 
 Christian L. Althaus (christian.althaus@alumni.ethz.ch), [Immuno-Epidemiology](http://www.immuno-epidemiology.ch/), Institute of Social and Preventive Medicine, University of Bern, Bern, Switzerland
 
@@ -91,7 +91,7 @@ axis(1,seq(from=0.7,by=7*1.2,length.out=ceiling(length(ebola$Cases)/7)+1),weeks)
 axis(2)
 ```
 
-**Figure 1. Confirmed and probable EVD cases in the Democratic Republic of Congo (DRC)** The [WHO situation report](http://apps.who.int/iris/bitstream/handle/10665/272785/SITREP_EVD_DRC_20180608-eng.pdf?utm_source=Newsweaver&utm_medium=email&utm_term=click+here+to+download+the+complete+situation+report&utm_content=Tag%3AAFRO%2FWHE%2FHIM+Outbreaks+Weekly&utm_campaign=WHO+AFRO+-+Situation+Report+-+Ebola+Virus+Disease+Outbreak+in+DRC+-+Sitrep+09+%282018%29) from 8 June 2018 reported 52 confirmed and probable EVD cases until 6 June 2018.
+**Figure 1. Confirmed and probable EVD cases in the Democratic Republic of Congo (DRC)** The [WHO situation report](http://apps.who.int/iris/bitstream/handle/10665/272825/SITREP_EVD_DRC_20180612-eng.pdf?ua=1) from 12 June 2018 reported 52 confirmed and probable EVD cases until 10 June 2018.
 
 ## Outbreak analysis and projection
 
