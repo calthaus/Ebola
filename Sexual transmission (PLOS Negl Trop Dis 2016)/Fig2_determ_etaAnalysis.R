@@ -9,7 +9,7 @@
 #  JL Abbate, C-L Murall, H Richner, CL Althaus                   #
 #  2016 PLoS Neglected Tropical Diseases                          #
 #                                                                 #
-#  PrePrint available bioRxiv http://dx.doi.org/10.1101/031880    #
+#  PrePrint available bioRxiv https://doi.org/10.1101/031880    #
 #  December 11, 2015                                              #        
 ###################################################################
 
